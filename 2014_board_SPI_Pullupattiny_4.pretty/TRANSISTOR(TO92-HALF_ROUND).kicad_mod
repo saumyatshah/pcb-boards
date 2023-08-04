@@ -1,0 +1,18 @@
+(module "TRANSISTOR(TO92-HALF_ROUND)" (layer F.Cu) (tedit 0)
+  (fp_text reference E$82 (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right top))
+  )
+  (fp_text value "" (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right top))
+  )
+  (fp_arc (start 0 -0.063499) (end -2.159 -1.651) (angle -252.653652) (layer F.SilkS) (width 0.127))
+  (fp_line (start -2.159 -1.651) (end 2.159 -1.651) (layer F.SilkS) (width 0.127))
+  (fp_line (start -1.905 0) (end -0.635 0) (layer F.SilkS) (width 0.127))
+  (fp_line (start 0.635 0) (end 1.905 0) (layer F.SilkS) (width 0.127))
+  (pad B thru_hole circle (at 0 0) (size 1.6764 1.6764) (drill 0.7) (layers *.Cu *.Mask)
+    (solder_mask_margin 0.1016))
+  (pad C thru_hole circle (at -2.54 0) (size 1.6764 1.6764) (drill 0.7) (layers *.Cu *.Mask)
+    (solder_mask_margin 0.1016))
+  (pad E thru_hole circle (at 2.54 0) (size 1.6764 1.6764) (drill 0.7) (layers *.Cu *.Mask)
+    (solder_mask_margin 0.1016))
+)

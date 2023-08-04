@@ -1,0 +1,17 @@
+(module "CAPACITOR(CERAMIC)" (layer F.Cu) (tedit 0)
+  (fp_text reference E$86 (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right top))
+  )
+  (fp_text value "" (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right top))
+  )
+  (fp_arc (start 0 3.111499) (end -2.54 -0.127) (angle 76.215154) (layer F.SilkS) (width 0.0508))
+  (fp_arc (start 0 -3.111499) (end 2.54 0.127) (angle 76.215154) (layer F.SilkS) (width 0.0508))
+  (fp_line (start -2.54 -0.127) (end -2.54 0.127) (layer F.SilkS) (width 0.0508))
+  (fp_line (start 2.54 -0.127) (end 2.54 0.127) (layer F.SilkS) (width 0.0508))
+  (fp_line (start -2.413 0) (end 2.413 0) (layer F.SilkS) (width 0.0508))
+  (pad 1 thru_hole circle (at -1.778 0) (size 1.6764 1.6764) (drill 0.5) (layers *.Cu *.Mask)
+    (solder_mask_margin 0.1016))
+  (pad 2 thru_hole circle (at 1.778 0) (size 1.6764 1.6764) (drill 0.5) (layers *.Cu *.Mask)
+    (solder_mask_margin 0.1016))
+)
